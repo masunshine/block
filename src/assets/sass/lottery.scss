@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import "./variable.scss";
+
+.lotImg{
+    width: 100%;
+   .bjSpan{
+       position: absolute;
+       margin: 350px 0 0 -410px;
+       font-size: 16px;
+   }
+   .real{
+    position: absolute;
+   top: 260px;
+   left: 50%;
+   margin-left: -240px;
+    font-size: 16px;
+   }
+   .bjform{
+       width: 460px;
+       height:700px;
+       padding: 20px;
+       h4{
+           margin-bottom: 10px;
+       }
+       .formLeft{
+           text-align: left;
+           margin: 5px 0;
+           word-break:break-all;
+       }
+       ul{
+        font-size: 18px;
+        margin-top: 0;
+        li{
+            list-style-type: none;
+            text-align: left;
+            margin-left: -35px;
+            line-height: 30px;
+        }
+       }
+   }
+}
+.welfareTop{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.lottery-page{
+    .el-pagination button ,
+    .el-pagination button:disabled,
+    .el-dialog, .el-pager li{
+        background-color: $body-color;
+    }
+}

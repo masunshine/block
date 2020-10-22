@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import "./variable.scss";
+
+// 首页头部
+// html,
+// body{
+//   margin: 0;
+//   padding: 0;
+//   background-color: $body-color;
+//   height: 100%;
+// }
+.titleTop {
+  width: 100%;
+  height:34px;
+  background-color: $title-bj-color;
+  line-height: 34px;
+  color: $title-color;
+  font-size: 14px;
+  text-align: right;
+  .en{
+    padding-left: 40px;
+  }
+  span{
+    margin-right: 16.66667%;
+    cursor: pointer;
+  }
+}
+.main_footer{
+  // overflow: hidden;
+  // position:absolute;
+  bottom: 0;
+  width: 100%;
+  height:40px;
+  background-color: $title-bj-color;
+  line-height: 40px;
+  color: $bottom-color;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.titleBottom {
+  .en{
+    padding-left: 40px;
+  }
+}
+.Nav{
+  width: 100%;
+  height: 60px;
+  background-color: $title-color;
+  line-height: 60px;
+  .titleH1{
+    color: $title-name;
+    margin: 0 0 0 16.66667%;
+    float: left;
+    img{
+      vertical-align: text-bottom;
+      width: 32px;
+      margin-right: 5px;
+    }
+  }
+  .el-menu.el-menu--horizontal{
+    border-bottom: none;
+  }
+  .el-menu--horizontal>.el-menu-item.is-active{
+    border-bottom: none;
+    color: $title-bj-color;
+  }
+  .titleMenu{
+    border-bottom: none;
+    font-size: 16px;
+    // text-align: center;
+    float: right;
+    margin-right: 16.66667%;
+    // margin-left: 130px;
+    .el-menu-item{
+      border-bottom: none;
+    }
+  }
+}
+.usel{
+  margin-bottom: 20px;
+}
+.rot{
+  margin-left: 16.66667%;
+  margin-top: 20px;
+}

@@ -1,0 +1,338 @@
+@charset "UTF-8";
+@import "./variable.scss";
+
+.lotteryCard{
+    margin: 30px 0 0 0;
+    .el-row{
+        margin-right: 0;
+    }
+    .locard{
+        width:100%;
+        margin-bottom: 30px;
+        .el-card__header{
+            background-color: $card-bj-color;
+            color: $card-color;
+            border-color: $card-border-color;
+        }
+        .icon{
+            // float: left;
+            margin-left: 10px;
+        }
+        .name{
+            float: left;
+            // margin-left: -200px;
+            img{
+                vertical-align: middle;
+                margin-right: 5px;
+                width: 32px;
+                margin-top: -7px;
+            }
+        }
+        .stage{
+            float: right;
+            margin-right: 10px;
+        }
+        .cardLeft{
+            text-align: right;
+            line-height: 35px;
+            padding-right: 80px;
+            color:$card-left-color;
+            font-size: 14px;
+        }
+        .cardRight{
+            text-align: left;
+            color:$card-right-color;
+            line-height: 35px;
+            font-size: 14px;
+            word-break:break-all;
+        }
+        .welfare{
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: $weflar-span;
+            color: $title-color;
+            display: block;
+            float: left;
+            text-align: center;
+            margin: 2px;
+            line-height: 30px;
+        }
+        .welfareDetail{
+            width: 35px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: $weflar-span;
+            color: $title-color;
+            display: block;
+            float: left;
+            text-align: center;
+            margin: 2px 2px 2px 15px;
+            line-height: 35px;
+        }
+        .cardRightColor{
+            text-align: left;
+            color:$card-left-color;
+            line-height: 35px;
+            font-size: 14px;
+            cursor: pointer;
+            word-break:break-all;
+        }
+        .tableButtom{
+            // position: absolute;
+            width: 100%;
+            height: 30px;
+            line-height: 50px;
+            border-top: 1px solid $card-loca-more;
+            margin-top: 10px;
+            .more{
+                cursor: pointer;
+                text-align: center;
+                color: $title-name;
+            }
+            .page{
+                float: right;
+                margin-top: 20px;
+            }
+        }
+    }
+    .echcard{
+        margin: 0px 0 10px 0;
+        border-bottom: $card-echarts-border-color;
+        .el-card__header{
+           height: 40px;
+           text-align: left;
+           line-height: 40px;
+           padding: 0px 20px;
+           color:$card-right-color;
+           background-color: $card-echarts-color;
+        }
+        .chLeft{
+            float: left;
+            width: 25%;
+            margin-top: 40px;
+            .chlname{
+                float: left;
+                width: 40%;
+                text-align: right;
+                padding-right: 30px;
+                div{
+                    line-height: 60px;
+                }
+            }
+            .chrval{
+                float: left;
+                width: 50%;
+                text-align: left;
+            }
+            .chcolor1{
+                background-color: $card-echarts-chr;
+                height: 20px;
+                margin-top:20px;
+                color: $title-color;
+                font-size: 13px;
+                padding-left:10px;
+                padding-top: 2px;
+            }
+            .chcolor2{
+                background-color: $card-echarts-chr2;
+                height: 20px;
+                margin-top:40px;
+                color: $title-color;
+                font-size: 13px;
+                padding-left:10px;
+                padding-top: 2px;
+            }
+            .chcolor3{
+                background-color: $card-echarts-chr3;
+                height: 20px;
+                margin-top:40px;
+                color: $title-color;
+                font-size: 13px;
+                padding-left:10px;
+                padding-top: 2px;
+            }
+            .chcolor4{
+                background-color: $card-echarts-chr4;
+                height: 20px;
+                margin-top:40px;
+                color: $title-color;
+                font-size: 13px;
+                padding-left:10px;
+                padding-top: 2px;
+            }
+            .chcolor5{
+                background-color: $card-echarts-chr5;
+                height: 20px;
+                margin-top:40px;
+                color: $title-color;
+                font-size: 13px;
+                padding-left:10px;
+                padding-top: 2px;
+            }
+        }
+    }
+    .bjcolor{
+        margin: 0px 0 10px 0;
+        border-bottom: $card-echarts-border-color;
+        .el-card__header{
+           height: 40px;
+           text-align: left;
+           line-height: 40px;
+           padding: 0px 20px;
+           color:$card-right-color;
+           background-color: $card-echarts-color;
+        }
+        .imgcard{
+            width: 75%;
+            background: url(../img/bjmap.png) no-repeat center top;
+            float: left;
+            img{
+                // width:90%;
+            }
+        }
+    }
+    .tablesCard{
+        margin: 0px 0 10px 0;
+        border-bottom: $card-echarts-border-color;
+        .el-card__header{
+           height: 40px;
+           text-align: left;
+           line-height: 40px;
+           padding: 0px 20px;
+           color:$card-right-color;
+           background-color: $card-echarts-color;
+        }
+        .tableTab{
+            float: right;
+            div{
+                float: left;
+                background-color: $title-color;
+                padding: 0 10px 0 10px;
+                color: $card-table-tab;
+                border-radius: 10px 10px 0 0;
+                height: 35px;
+                margin-top: 5px;
+                border: 1px solid $card-table-tab;
+                cursor: pointer;
+            }
+            .checked{
+                background-color: $card-table-tab;
+                color: $title-color;
+            }
+        }
+        .table{
+            width:100%;
+        }
+        .tableButtom{
+            // position: absolute;
+            width: 100%;
+            height: 30px;
+            line-height: 50px;
+            .more{
+                cursor: pointer;
+                text-align: center;
+                color: $title-name;
+            }
+            .page{
+                float: right;
+                margin-top: 20px;
+            }
+        }
+    }
+    .layouts{
+        .el-card__header{
+            background-color: $card-bj-color;
+            color: $card-color;
+            border-color: $card-border-color;
+        }
+        .name{
+            float: left;
+            margin-top: -10px;
+        }
+        .type{
+            float: right;
+            margin-right: 10px;
+            margin-top: -10px;
+        }
+        .cardLeft{
+            text-align: right;
+            line-height: 35px;
+            padding-right: 80px;
+            color:$card-left-color;
+            font-size: 14px;
+        }
+        .cardRight{
+            text-align: left;
+            color:$card-right-color;
+            line-height: 30px;
+            font-size: 14px;
+            word-break:break-all;
+        }
+        .cardRight2{
+            text-align: left;
+            color:$card-right-color;
+            height: 44px;
+            font-size: 14px;
+            word-break:break-all;
+        }
+        .cardRightColor{
+            text-align: left;
+            color:$card-left-color;
+            line-height: 30px;
+            font-size: 14px;
+            cursor: pointer;
+            word-break:break-all;
+        }
+        .tableButtom{
+            // position: absolute;
+            width: 100%;
+            height: 30px;
+            line-height: 50px;
+            border-top: 1px solid $card-loca-more;
+            margin-top: 10px;
+            .more{
+                        cursor: pointer;
+                text-align: center;
+                color: $title-name;
+            }
+            .page{
+                float: right;
+                margin-top: 20px;
+            }
+        }
+        img{
+            width: 30px;
+        }
+    }
+    .contCard{
+        width: 100%;
+        // padding: 0 20px;
+        .contLeft{
+            text-align: left;
+            float: left;
+            img{
+                vertical-align: middle;
+            }
+        }
+        .contRight{
+            text-align: left;
+            float: left;
+            padding-left: 15px;
+            padding-top: 13px;
+            .contData{
+             font-size: 18px;
+             font-weight: bold;
+             color: $card-cont;
+             span{
+                 padding-left:2px;
+                 font-size: 12px;
+                 color:$card-cont-span-color;
+             }
+            }
+            .contName{
+                // font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import "./variable.scss";
+
+.inputComm{
+    padding: 0px 120px;
+    input{
+        border-color: $title-name;
+    }
+    .el-input-group__append{
+        background-color: $title-name;
+        color: $title-color;
+        border-color: $title-name;
+        cursor: pointer;
+    }
+}
+.accput{
+    // padding:0;
+    input{
+        border-color: $title-name;
+    }
+    .el-input-group__append{
+        background-color: $title-name;
+        color: $title-color;
+        border-color: $title-name;
+        cursor: pointer;
+    }
+    .tips{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+    .tipsButton{
+        margin-top: 20px;
+        margin-bottom: -10px;
+        background-color: $title-name;
+        color: $title-color;
+        border-color: $title-name;
+    }
+}

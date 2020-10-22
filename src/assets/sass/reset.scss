@@ -1,0 +1,1247 @@
+@import "./variable.scss";
+/**
+*公共样式文件：reset.scss 公共类
+*
+**/
+html,
+body,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+input,
+section,
+div,
+table,
+th,
+td,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html,
+body {
+  // min-width: 1440px;
+  // position: relative;
+  // overflow: auto;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  // line-height: 1;
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  // user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  // font-size: 12px;
+  background-color: #fafafa;
+  .el-carousel__arrow {
+    width: 50px;
+    height: 50px;
+    i{
+      font-size: 20px;
+    }
+   }
+   .el-table{
+    font-size: 15px;
+   }
+}
+@media screen and (max-width: 1550px) {
+  body{
+    font-size: 12px;
+    .el-table,
+    .el-input,
+    .titleTop,
+    .lotteryCard .locard .cardLeft,
+    .lotteryCard .locard .cardRight,
+    .lotteryCard .layouts .cardLeft,
+    .lotteryCard .layouts .cardRight,
+    .el-menu-item,
+    .el-submenu__title{
+      font-size: 12px;
+    }
+    .el-carousel__container{
+      height: 200px;
+    }
+    .lotteryCard .layouts img{
+      width: 23px;
+     padding-top: 5px;
+    }
+    .el-carousel__container img,
+    .imgcard img{
+      width: 100%;
+    }
+    .lotteryCard .contCard .contRight .contData{
+      font-size: 15px;
+      font-weight:initial;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width:800px) {
+  .imgReight{
+    width: 200px;
+    bottom: 20px;
+    float: right;
+    position: relative;
+    .name{
+        float: left;
+        padding-left: 20px;
+    }
+    .num{
+        float: right;
+        padding-right: 20px;
+        color: $card-cont;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .messTitle{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+    .bottomLine{
+        position: absolute;
+        top: 340px;
+        padding-left:  20px;
+        font-size: 22px;
+        color: $card-cont;
+    }
+    .classNum0{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 320px;
+}
+    }
+    .classNum1{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move1;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move1{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 290px;
+}
+    }
+    .classNum2{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move2;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move2{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 260px;
+}
+    }
+    .classNum3{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move3;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move3{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 230px;
+}
+    }
+    .classNum4{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move4;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move4{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 200px;
+}
+    }
+    .classNum5{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move5;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move5{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 170px;
+}
+    }
+    .classNum6{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move6;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move6{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 140px;
+}
+    }
+    .classNum7{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move7;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move7{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 110px;
+}
+    }
+    .classNum8{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move8;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move8{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 80px;
+}
+    }
+    .classNum9{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move9;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move9{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 50px;
+}
+    }
+    .classNum10{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move10;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 5px;
+    }
+    @-webkit-keyframes move10{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 20px;
+}
+    }
+}
+}
+
+@media screen and (max-width:1540px) and (min-width:1320px){
+  .imgReight{
+    width: 220px;
+    bottom: 20px;
+    float: right;
+    position: relative;
+    .name{
+        float: left;
+        padding-left: 20px;
+    }
+    .num{
+        float: right;
+        padding-right: 20px;
+        color: $card-cont;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .messTitle{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    .bottomLine{
+        position: absolute;
+        top: 430px;
+        padding-left:  20px;
+        font-size: 22px;
+        color: $card-cont;
+    }
+    .classNum0{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 400px;
+}
+    }
+    .classNum1{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move1;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move1{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 360px;
+}
+    }
+    .classNum2{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move2;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move2{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 320px;
+}
+    }
+    .classNum3{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move3;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move3{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 280px;
+}
+    }
+    .classNum4{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move4;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move4{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 240px;
+}
+    }
+    .classNum5{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move5;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move5{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 200px;
+}
+    }
+    .classNum6{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move6;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move6{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 160px;
+}
+    }
+    .classNum7{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move7;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move7{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 120px;
+}
+    }
+    .classNum8{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move8;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move8{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 80px;
+}
+    }
+    .classNum9{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move9;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move9{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 40px;
+}
+    }
+    .classNum10{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move10;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 20px;
+    }
+    @-webkit-keyframes move10{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 0px;
+}
+    }
+}
+}
+
+@media screen and (max-width:1800px)and (min-width:1550px){
+  .imgReight{
+    width: 240px;
+    bottom: 20px;
+    float: right;
+    position: relative;
+    .name{
+        float: left;
+        padding-left: 20px;
+    }
+    .num{
+        float: right;
+        padding-right: 20px;
+        color: $card-cont;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .messTitle{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+    .bottomLine{
+        position: absolute;
+        top: 500px;
+        padding-left:  20px;
+        font-size: 22px;
+        color: $card-cont;
+    }
+    .classNum0{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 450px;
+}
+    }
+    .classNum1{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move1;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move1{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 405px;
+}
+    }
+    .classNum2{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move2;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move2{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 360px;
+}
+    }
+    .classNum3{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move3;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move3{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 315px;
+}
+    }
+    .classNum4{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move4;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move4{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 270px;
+}
+    }
+    .classNum5{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move5;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move5{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 225px;
+}
+    }
+    .classNum6{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move6;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move6{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 180px;
+}
+    }
+    .classNum7{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move7;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move7{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 135px;
+}
+    }
+    .classNum8{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move8;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move8{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 90px;
+}
+    }
+    .classNum9{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move9;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move9{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 45px;
+}
+    }
+    .classNum10{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move10;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move10{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 0px;
+}
+    }
+}
+}
+
+@media screen and (min-width:1800px){
+  .lotteryCard .bjcolor .imgcard{
+    width: 78%;
+  }
+  .imgReight{
+    width: 260px;
+    bottom: 20px;
+    float: right;
+    position: relative;
+    .name{
+        float: left;
+        padding-left: 20px;
+    }
+    .num{
+        float: right;
+        padding-right: 20px;
+        color: $card-cont;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .messTitle{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 40px;
+    }
+    .bottomLine{
+        position: absolute;
+        top: 505px;
+        padding-left:  20px;
+        font-size: 22px;
+        color: $card-cont;
+    }
+    .classNum0{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 450px;
+}
+    }
+    .classNum1{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move1;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move1{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 405px;
+}
+    }
+    .classNum2{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move2;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move2{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 360px;
+}
+    }
+    .classNum3{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move3;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move3{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 315px;
+}
+    }
+    .classNum4{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move4;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move4{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 270px;
+}
+    }
+    .classNum5{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move5;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move5{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 225px;
+}
+    }
+    .classNum6{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move6;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move6{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 180px;
+}
+    }
+    .classNum7{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move7;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move7{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 135px;
+}
+    }
+    .classNum8{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move8;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move8{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 90px;
+}
+    }
+    .classNum9{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move9;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move9{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 45px;
+}
+    }
+    .classNum10{
+        clear: both;
+        padding-top:10px;
+        text-align: left;
+        position: absolute;
+        -webkit-animation: 5s move10;
+animation-fill-mode: forwards;
+        width:100%;
+        margin-top: 30px;
+    }
+    @-webkit-keyframes move10{
+0%{
+  left: 0px;
+  top: 0px;
+}
+100%{
+  left: 0px;
+            top: 0px;
+}
+    }
+}
+}
+
+body{
+  min-width: 320px;
+}
+fieldset,
+img {
+  // border: 0;
+  // display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+i,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
+a {
+  color: #666;
+  outline: 0;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.3s;
+  &:focus {
+    border-color: #815abc;
+  }
+}
+.no-select {
+  // user-select: none;
+}
+.oh {
+  overflow: hidden;
+}
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+input,
+button {
+  border: none;
+  outline: none;
+}
+select,
+input {
+  vertical-align: middle;
+}
+input,
+textarea {
+  color: #606266;
+  font-family: Arial;
+}
+select,
+input,
+textarea {
+  margin: 0;
+  outline: none;
+  font-size: 12px;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+table {
+  border-collapse: collapse;
+}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-weight: normal;
+//   font-size: 100%;
+// }
+.clearFix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clearFix {
+  zoom: 1;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.splitor {
+  display: inline-block;
+  margin: 0 9px;
+  font-weight: 700;
+  color: #c0c4cc;
+}
+.pointer {
+  cursor: pointer;
+}
+.transition {
+  transition: 0.8s;
+}
+.tc {
+  text-align: center;
+}
+/*文本颜色*/
+.text-warning {
+  color: #330000;;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.none {
+  display: none;
+}
+.bold {
+  font-weight: bold;
+}
